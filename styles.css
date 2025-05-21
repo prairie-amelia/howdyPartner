@@ -264,8 +264,8 @@ h3{
     position: fixed;
     top: -50vh;
     left: -50vw;
-    height: 200vh;
-    width: 200vw;
+    height: 300vh;
+    width: 300vw;
     overflow-x: hidden !important;
     overflow-y: hidden !important;
     background-color: white;
