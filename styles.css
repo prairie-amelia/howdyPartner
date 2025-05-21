@@ -115,7 +115,7 @@ h2{
     height: calc((100vh - 30vw) / 6);
     width: 100%;
     position: sticky;
-    top: 20vw;
+    top: 19vw;
 }
 
 #time-label{
@@ -124,7 +124,7 @@ h2{
     height: calc((100vh - 30vw) / 6);
     width: 100%;
     position: sticky;
-    top: 20vw;
+    top: 19vw;
 }
 
 #service-label{
@@ -132,7 +132,7 @@ h2{
     border-bottom: 5vw solid #bbe8b5;
     height: calc((100vh - 30vw) / 6);
     position: sticky;
-    top: 20vw;
+    top: 19vw;
 }
 
 #gift-label{
@@ -140,7 +140,7 @@ h2{
     border-bottom: 5vw solid #e8e6a5;
     height: calc((100vh - 30vw) / 6);
     position: sticky;
-    top: 20vw;
+    top: 19vw;
 }
 
 #touch-label{
@@ -148,7 +148,7 @@ h2{
     border-bottom: 5vw solid #f0b884;
     height: calc((100vh - 30vw) / 6);
     position: sticky;
-    top: 20vw;
+    top: 19vw;
 }
 
 #spicy-label{
@@ -156,7 +156,7 @@ h2{
     border-bottom: 5vw solid #e89da2;
     height: calc((100vh - 30vw) / 6);
     position: sticky;
-    top: 20vw;
+    top: 19vw;
 }
 
 .coupon{
