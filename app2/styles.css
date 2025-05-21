@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: 0px;
+}
+
+main{
+    max-height:100vh;
+    max-width: 100vw;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+header:hover{
+    cursor: pointer;
+}
+
+fake_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    margin: 3vw auto 0 auto;
+    background-color: white;
+    overflow-y: auto;
+}
+
+h1{
+    font-family: "Chewy", system-ui;
+    font-weight: 300;
+    margin: 3vw auto;
+    text-align: center;
+    width: 90vw;
+    font-size: 15vw;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.type-label{
+    border-top: 2vw solid white;
+}
+
+.type-label:hover{
+    cursor: pointer;
+}
+
+#words{
+    background-color: #c5ace8;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: none;
+}
+
+#time{
+    background-color: #acbbe8;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+#service{
+    background-color: #bbe8b5;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+#gift{
+    background-color: #e8e6a5;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+#touch{
+    background-color: #f0b884;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+#spicy{
+    background-color: #e89da2;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+h2{
+    padding: 2vw 1vw;
+    text-align: center;
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+#words-label{
+    background-color:#4d00b9;
+    border-bottom: 5vw solid #c5ace8;
+    height: calc((100vh - 30vw) / 6);
+    width: 100%;
+    position: sticky;
+    top: 20vw;
+}
+
+#time-label{
+    background-color:#002caf;
+    border-bottom: 5vw solid #acbbe8;
+    height: calc((100vh - 30vw) / 6);
+    width: 100%;
+    position: sticky;
+    top: 20vw;
+}
+
+#service-label{
+    background-color:#15b600;
+    border-bottom: 5vw solid #bbe8b5;
+    height: calc((100vh - 30vw) / 6);
+    position: sticky;
+    top: 20vw;
+}
+
+#gift-label{
+    background-color:#c7c000;
+    border-bottom: 5vw solid #e8e6a5;
+    height: calc((100vh - 30vw) / 6);
+    position: sticky;
+    top: 20vw;
+}
+
+#touch-label{
+    background-color:#c86100;
+    border-bottom: 5vw solid #f0b884;
+    height: calc((100vh - 30vw) / 6);
+    position: sticky;
+    top: 20vw;
+}
+
+#spicy-label{
+    background-color:#b6000c;
+    border-bottom: 5vw solid #e89da2;
+    height: calc((100vh - 30vw) / 6);
+    position: sticky;
+    top: 20vw;
+}
+
+.coupon{
+    width: calc(95% - 20px); 
+    margin: 0 auto 5vw auto;
+    transition: transform 0.3s;
+}
+
+.coupon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.coupon-words{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #c5ace8 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #c5ace8 3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #c5ace8 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #c5ace8 3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+.coupon-time{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #acbbe8 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #acbbe8 3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #acbbe8 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #acbbe8 3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+.coupon-service{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #bbe8b5 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #bbe8b5 3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #bbe8b5 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #bbe8b5 3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+.coupon-gift{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #e8e6a5 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #e8e6a5  3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #e8e6a5  3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #e8e6a5  3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+.coupon-touch{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #f0b884 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #f0b884  3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #f0b884  3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #f0b884  3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+.coupon-spicy{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #e89da2 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #e89da2  3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #e89da2  3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #e89da2  3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+
+p{
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+    text-transform: lowercase;
+    font-weight: 200;
+    font-size: 4vw;
+    padding: 4vw;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 600;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.description{
+    font-style: italic;
+    font-weight: 200;
+}
+
+#spin-background{
+    position: fixed;
+    top: -50vh;
+    left: -50vw;
+    height: 200vh;
+    width: 200vw;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    background-color: white;
+    background-image: url('vecteezy_transparent-sun-ray-background-radial-beam-sunrise-or_46552152.png');
+    background-size: cover;
+    background-position: center;
+    animation-name: spin;
+    animation-duration: 9000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    z-index: 1;
+    display: none;
+    overflow: hidden;
+}
+
+#coupon-show{
+    position: fixed;
+    top: 0;
+    left: 5vw;
+    width: 90vw;
+    height: 100vh;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+    overflow: hidden;
+}
+
+#coupon-show .showing{
+    background-color: white;
+    align-self: center;
+    border-radius: 25%;
+}
+
+#coupon-show .showing h3{
+    font-size: 10vw;
+    padding: 10vw;
+}
+
+#coupon-show .showing p{
+    font-size: 6vw;
+    padding: 6vw;
+}
+
+.redeem h3{
+    font-size: 13vw;
+    padding: 10vw 0;
+    text-align: center;
+}
+
+.close{
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    width: 35vw;
+    align-self: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.close:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
