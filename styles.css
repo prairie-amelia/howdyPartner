@@ -262,8 +262,8 @@ h3{
 
 #spin-background{
     position: fixed;
-    top: -150vh;
-    left: -150vw;
+    top: -250vh;
+    left: -250vw;
     height: 600vh;
     width: 600vw;
     overflow-x: hidden !important;
