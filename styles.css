@@ -264,8 +264,8 @@ h3{
     position: fixed;
     top: -50vh;
     left: -50vw;
-    height: 300vh;
-    width: 300vh;
+    height: 500vh;
+    width: 500vh;
     overflow-x: hidden !important;
     overflow-y: hidden !important;
     background-color: white;
@@ -278,7 +278,7 @@ h3{
     z-index: 1;
     display: none;
     overflow: hidden;
-    background-size: stretch
+    background-size: cover;
 }
 
 #coupon-show{
