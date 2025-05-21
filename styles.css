@@ -278,7 +278,7 @@ h3{
     z-index: 1;
     display: none;
     overflow: hidden;
-    background-size: cover;
+    background-size: stretch;
 }
 
 #coupon-show{
