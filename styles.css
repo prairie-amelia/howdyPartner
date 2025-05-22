@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: 0px;
+}
+
+main{
+    max-height:100vh;
+    max-width: 100vw;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+#mode-toggle{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 2vw;
+    border: 1vw solid rgb(221, 241, 248);
+    border-radius: 3vw;
+}
+
+#mode-toggle p{
+    line-height: 4vw;
+    font-size: 4vw;
+    padding: 3vw;
+}
+
+.selection{
+    background-color: rgb(106, 203, 235);
+    border-radius: 2vw;
+}
+
+header:hover{
+    cursor: pointer;
+}
+
+body{
+    width: 100%;
+    margin: 3vw auto 0 auto;
+    background-color: white;
+    overflow-y: auto;
+}
+
+h1{
+    font-family: "Chewy", system-ui;
+    font-weight: 300;
+    margin: 2vw auto;
+    text-align: center;
+    width: 90vw;
+    font-size: 15vw;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.type-label{
+    border-top: 2vw solid white;
+    display: flex;
+    justify-content: space-between;
+    height: calc((100vh - 36vw) / 6);
+    width: 100%;
+}
+
+.label{
+    text-align: left;
+    padding-left: 5vw;
+}
+
+.icon{
+    padding-right: 5vw;
+}
+
+.type-label:hover{
+    cursor: pointer;
+}
+
+#words{
+    background-color: #c5ace8;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 95vh;
+    display: block;
+}
+
+#time{
+    background-color: #acbbe8;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 95vh;
+    display: block;
+}
+
+#service{
+    background-color: #bbe8b5;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 95vh;
+    display: block;
+}
+
+#gift{
+    background-color: #e8e6a5;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 95vh;
+    display: block;
+}
+
+#touch{
+    background-color: #f0b884;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 95vh;
+    display: block;
+}
+
+#spicy{
+    background-color: #e89da2;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 95vh;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    padding: 2vw 1vw;
+    text-align: center;
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+#words-label{
+    background-color:#4d00b9;
+    border-bottom: 5vw solid #c5ace8;
+}
+
+#time-label{
+    background-color:#002caf;
+    border-bottom: 5vw solid #acbbe8;
+}
+
+#service-label{
+    background-color:#15b600;
+    border-bottom: 5vw solid #bbe8b5;
+}
+
+#gift-label{
+    background-color:#c7c000;
+    border-bottom: 5vw solid #e8e6a5;
+}
+
+#touch-label{
+    background-color:#c86100;
+    border-bottom: 5vw solid #f0b884;
+}
+
+#spicy-label{
+    background-color:#b6000c;
+    border-bottom: 5vw solid #e89da2;
+}
+
+.coupon{
+    width: calc(95% - 20px); 
+    margin: 0 auto 5vw auto;
+    color: black !important;
+}
+
+.in-person-only{
+    display: block;
+}
+
+.long-distance-only{
+    display: block;
+}
+
+.coupon:hover{
+    cursor: pointer;
+}
+
+.coupon-words{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #c5ace8 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #c5ace8 3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #c5ace8 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #c5ace8 3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+.coupon-time{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #acbbe8 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #acbbe8 3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #acbbe8 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #acbbe8 3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+.coupon-service{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #bbe8b5 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #bbe8b5 3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #bbe8b5 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #bbe8b5 3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+.coupon-gift{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #e8e6a5 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #e8e6a5  3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #e8e6a5  3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #e8e6a5  3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+.coupon-touch{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #f0b884 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #f0b884  3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #f0b884  3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #f0b884  3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+.coupon-spicy{
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 0 0, #e89da2 3vw, transparent 3vw),
+        radial-gradient(circle at 100% 0, #e89da2  3vw, transparent 3vw),
+        radial-gradient(circle at 0 100%, #e89da2  3vw, transparent 3vw),
+        radial-gradient(circle at 100% 100%, #e89da2  3vw, #ffffff32 3vw),
+        url("jkalina-ZsBRkhBW8WA-unsplash.jpg");
+    background-size: cover;
+}
+
+
+p{
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+    text-transform: lowercase;
+    font-weight: 200;
+    font-size: 4vw;
+    padding: 4vw;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 600;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.description{
+    font-style: italic;
+    font-weight: 200;
+}
+
+#spin-background{
+    position: fixed;
+    top: -250vh;
+    left: -250vw;
+    height: 600vh;
+    width: 600vw;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    background-color: white;
+    background-image: url('vecteezy_transparent-sun-ray-background-radial-beam-sunrise-or_46552152.png');
+    background-position: center;
+    animation-name: spin;
+    animation-duration: 9000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    z-index: 1;
+    display: block;
+    overflow: hidden;
+    background-size: stretch;
+}
+
+#coupon-show{
+    position: fixed;
+    top: 0;
+    left: 5vw;
+    width: 90vw;
+    height: 95vh;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    overflow: hidden;
+}
+
+.showing{
+    min-height: 35vh;
+}
+
+#coupon-show .showing{
+    background-color: white;
+    align-self: center;
+    border-radius: 25%;
+}
+
+#coupon-show .showing h3{
+    font-size: 10vw;
+    padding: 10vw;
+}
+
+#coupon-show .showing p{
+    font-size: 6vw;
+    padding: 6vw;
+}
+
+.redeem h3{
+    font-size: 13vw;
+    padding: 10vw 0;
+    text-align: center;
+}
+
+.close a{
+    color: white;
+}
+
+.close{
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    width: 35vw;
+    align-self: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
