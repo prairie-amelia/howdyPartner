@@ -65,7 +65,7 @@ button:hover{
     border-top: 2vw solid white;
     display: flex;
     justify-content: space-between;
-    height: calc((100vh - 36vw) / 6);
+    height: calc((95vh - 36vw) / 6);
     width: 100%;
 }
 
