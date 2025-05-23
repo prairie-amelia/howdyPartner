@@ -15,6 +15,10 @@ let couponList = document.getElementsByClassName("coupon")
 let textForInner = localStorage.getItem("inner");
 let couponToShow = document.getElementById("showing")
 
+if(!textForInner){
+    textForInner = "this is filler"
+}
+    
 let textForCopy = textForInner.trim()
 let startReplace = textForCopy.indexOf("<h3>")
 let endReplace = textForCopy.indexOf("</h3>")
