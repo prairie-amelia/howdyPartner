@@ -74,7 +74,7 @@ if(couponToShow){
 function copyCoupon(){
     let message = localStorage.getItem("share")
     navigator.clipboard.writeText(message)
-    alert("copied to your clipboard")
+    //alert("copied to your clipboard")
 }
 
 function shareCoupon(){
